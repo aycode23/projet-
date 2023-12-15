@@ -1,0 +1,14 @@
+<div class='container'>
+    <div class='header'>
+        <h1>Our Events</h1>
+        <div>
+            <input class='selectdiv' type="text" (input)="fetchByDep($event)" placeholder="nom department">
+            <input class='selectdiv' type="number" [(ngModel)]="nbrParticipant" (change)="fetchByNbr($event)" placeholder="nombre de participant">
+        </div>
+    </div>
+    <div class="section">
+        <div *ngFor="let ac of activity">
+            <app-activity [activity]="ac"></app-activity> 
+        </div>      
+    </div>
+</div>

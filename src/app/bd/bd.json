@@ -1,0 +1,68 @@
+{
+  "admin": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "pwd": "admin1"
+    },
+    {
+      "id": 3,
+      "username": "cyrine",
+      "pwd": "cyrine1"
+    },
+    {
+      "username": "youssef",
+      "pwd": "youssef1",
+      "id": 4
+    }
+  ],
+  "departement": [
+    {
+      "id": 1,
+      "nom": "Human Ressources"
+    },
+    {
+      "id": 2,
+      "nom": "Media"
+    },
+    {
+      "id": 3,
+      "nom": "Technical"
+    }
+  ],
+  "activity": [
+    {
+      "name": "cybersecurity",
+      "department": {
+        "id": 1,
+        "nom": "Human Ressources"
+      },
+      "picture": "assets/bodygsecurity.png",
+      "date": "2023-12-23",
+      "NombreDeParticipants": 17,
+      "interne": false,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "cybersecurityy",
+      "department": "Media",
+      "picture": "assets/bodygsecurity.png",
+      "date": "2023-12-23",
+      "interne": true,
+      "NombreDeParticipants": 17
+    },
+    {
+      "name": "cybersecurity",
+      "department": {
+        "id": 2,
+        "nom": "Media"
+      },
+      "picture": "assets/bodygsecurity.png",
+      "date": "2023-12-13",
+      "NombreDeParticipants": 17,
+      "interne": true,
+      "id": 5
+    }
+  ]
+}
